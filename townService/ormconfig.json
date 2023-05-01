@@ -1,0 +1,13 @@
+{
+    "type": "mysql",
+    "host": "database-covey.cvrntxiomkd2.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "username": "masterUsername",
+    "password": "YfpDUmz7d3T4WA74C3v3qP",
+    "database": "CoveyTown",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+        "src/lib/User.ts"
+    ]
+}

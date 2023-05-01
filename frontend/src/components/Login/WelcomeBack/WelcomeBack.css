@@ -1,0 +1,17 @@
+/* WelcomeBack.css */
+.welcome-back {
+  animation: slideDown 0.5s ease-in-out;
+}
+.highlight {
+  background-color: rgba(63, 188, 21, 0.982); /* !important; */
+  /* border-radius: 50%; */
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translate(-50%, -100%);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
